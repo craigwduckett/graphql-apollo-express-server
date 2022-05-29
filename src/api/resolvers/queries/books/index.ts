@@ -1,0 +1,1 @@
+export default async (_: any, {}: any, {models}: any) => await models.Book.find()
